@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   
   <title>Frontend Mentor | Article preview component</title>
 
@@ -15,22 +17,45 @@
   </style>
 </head>
 <body>
+  <div class="container">
+    <div class="left">
+    </div>
+    <div class="right">
+      <h2 class="title">
+        Shift the overall look and feel by adding these wonderful touches to furniture in your home
+      </h2>
+      <p class="text">
+        Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete.
+      </p>
+      <div class="informations">
+        <div class="pic-name">
+          <div class="pic">
+            <img src="images/avatar-michelle.jpg" alt="girl">
+          </div>
+          <div class="name">
+            <p>Michelle Appleton <br> <span>28 Jun 2020</span> </p>
+          </div>
+        </div>
+        <div class="button">
+          <i class="fa-solid fa-share"></i>
+          <div class="share">
+            <span id="share">share</span>
+            <i class="fa-brands fa-facebook-square"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <div class="desing"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  Shift the overall look and feel by adding these wonderful 
-  touches to furniture in your home
-
-  Ever been in a room and felt like something was missing? Perhaps 
-  it felt slightly bare and uninviting. I’ve got some simple tips 
-  to help you make any room feel complete.
-
-  Michelle Appleton
-  28 Jun 2020
-
-  Share
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Dexx</a>.
   </div>
+
+  <script src="main.js"></script>
 </body>
 </html>
